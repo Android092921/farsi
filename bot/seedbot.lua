@@ -284,30 +284,24 @@ Realm Commands:
 حذف کردن عنوان ادمینی از یک شخص *فقط سودو میتواند
 
 !list groups
-Get a list of all groups
+مشاهده کردن لیست گروه ها
 
 !list realms
-Get a list of all realms
+مشاهده کردن لیست ریالم ها
 
 !log
-Get a logfile of current group or realm
+دریافت کردن لیست گروه ها و ریالم ها به صورت فایل
 
 !broadcast [text]
-!broadcast Hello !
-Send text to all groups
-» Only sudo users can run this command
+!broadcast مثال
+ارسال پیام به همه گروه ها *فقط سودو میتواند
 
 !bc [group_id] [text]
-!bc 123456789 Hello !
-This command will send text to [group_id]
+!bc 123456789 مثال
+ارسال پیام به گروه مورد نظر
 
-» U can use both "/" and "!" 
 
-» Only mods, owner and admin can add bots in group
-
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
+شما میتوانید به جای علامت ! از / در همه دستورات استفاده کنید
 
 ]],
     help_text = [[
