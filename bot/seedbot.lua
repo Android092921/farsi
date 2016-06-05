@@ -242,46 +242,46 @@ Support Channel:
 Realm Commands:
 
 !creategroup [name]
-Create a group
+ساختن گروه
 
 !createrealm [name]
-Create a realm
+ساختن ریالم
 
 !setname [name]
-Set realm name
+عوض کردن اسم ریالم
 
 !setabout [group_id] [text]
-Set a group's about text
+عوض کردن متن توضیح گروه
 
 !setrules [grupo_id] [text]
-Set a group's rules
+عوض کردن متن قوانین گروه
 
 !lock [grupo_id] [setting]
-Lock a group's setting
+قفل کردن تنضیمات گروه
 
 !unlock [grupo_id] [setting]
-Unock a group's setting
+باز کردن تنضیمات گروه
 
 !wholist
-Get a list of members in group/realm
+مشاهده کردن اعضای(گروه/ریالم)به صورت لیست
 
 !who
-Get a file of members in group/realm
+دریافت کردن لیست اعضای(گروه/ریالم)به صورت فایل
 
 !type
-Get group type
+مشاهده کردن نوع گروه
 
 !kill chat [grupo_id]
-Kick all memebers and delete group
+حذف کردن همه اعضای گروه و پاک کردن گروه
 
 !kill realm [realm_id]
-Kick all members and delete realm
+حذف کردن همه اعضای ریالم و پاک کردن ریالم
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+ادمین کردن شخصی در ربات *فقط سودو میتواند
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+حذف کردن عنوان ادمینی از یک شخص *فقط سودو میتواند
 
 !list groups
 Get a list of all groups
