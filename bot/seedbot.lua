@@ -228,15 +228,14 @@ function create_config( )
     sudo_users = {182420116},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[PARADOX v1
-An advance Administration bot based on Teleseed
-
-
-Developer:
-Farzad Nari( @Farzad_Nari )
-
-Support Channel:
-@Paradox_Ch
+    about_text = [[#___________ 
+PARADOX v1
+#_________________________________________________
+Sudo And Devleoper : Farzad Nari ( @Farzad_Nari )
+#___________________________________
+Robot Language->  English & Persian
+#______________________________
+Support Channel : @Paradox_Ch
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -308,13 +307,15 @@ Realm Commands:
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+کیک کردن از گروه،با ریپلی کردن به پیام فرد میتوانید بدون یوزرنیم و آیدی،کیک کنید
 
 !ban [ username|id]
-You can also do it by reply
+
+بن کردن از گروه،با ریپلی کردن به پیام فرد میتوانید بدون یوزرنیم و آیدی،بن کنید
+
 
 !unban [id]
-You can also do it by reply
+(آن بن کردن(از بن درآوردن
 
 !who
 Members list
