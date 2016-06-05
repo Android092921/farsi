@@ -318,49 +318,46 @@ Commands list :
 (آن بن کردن(از بن درآوردن
 
 !who
-Members list
+مشاده کردن لیست اعضای گروه
 
 !modlist
-Moderators list
+مشاهده کردن مدیران گروه
 
 !promote [username]
-Promote someone
+مدیر کردن درگروه
 
 !demote [username]
-Demote someone
+گرفتن مقام مدیری در گروه
 
 !kickme
-Will kick user
+کیک شدنتان توسط ربات
 
 !about
-Group description
+مشاخده کردن توضیحات گروه
 
 !setphoto
-Set and locks group photo
+تنظیم کردن عکس گروه
 
 !setname [name]
-Set group name
+تنظیم کردن اسم گروه
 
 !rules
-Group rules
+مشاهده قوانین گروه
 
 !id
-Return group id or user id
-
-!help
-Get commands list
+مشاهده کردن آیدی
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+[member|name|bots|leaveing] قفل کردن موارد روبرو
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+[member|name|bots|leaving]از قفل درآوردن موارد روبرو
 
 !set rules [text]
-Set [text] as rules
+تنظیم کردن قوانین گروه
 
 !set about [text]
-Set [text] as about
+تنظیم کردن توضیحات گروه
 
 !settings
 Returns group settings
