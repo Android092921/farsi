@@ -216,7 +216,8 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
-    "linkpv",  
+    "linkpv",
+    "nerkh",  
     "welcome",
     "set",
     "get",
@@ -345,6 +346,9 @@ Commands list :
 
 !rules
 مشاهده قوانین گروه
+
+!nerkh
+مشاهده کردن نرخ گروه های آنتی اسپم با ربات پارادوکس
 
 !id
 مشاهده کردن آیدی
