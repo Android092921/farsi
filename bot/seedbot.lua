@@ -216,6 +216,8 @@ function create_config( )
     "stats",
     "anti_spam",
     "owners",
+    "linkpv",  
+    "welcome",
     "set",
     "get",
     "broadcast",
@@ -367,6 +369,9 @@ Commands list :
 
 !link
 دریافت کردن لینک گروه
+
+!linkpv
+ربات،لینک گروهتان را به پی وی خودتان میفرستد
 
 !owner
 مشاهده کردن آیدی صاحب گروه
