@@ -14,8 +14,8 @@ function run(msg, matches)
 end
 
 return {
-  description = "Shows bot version", 
-  usage = "ver: Shows bot version",
+  description = "نرخ گروه ها", 
+  usage = "بدون شرح",
   patterns = {
     "^[!/](nerkh)$"
   }, 
