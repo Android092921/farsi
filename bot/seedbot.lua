@@ -360,51 +360,43 @@ Commands list :
 تنظیم کردن توضیحات گروه
 
 !settings
-Returns group settings
+مشاهده کردن تنضیمات گروه
 
 !newlink
-Create/revoke your group link
+ساختن و عوض کردن لینک گروه
 
 !link
-Returns group link
+دریافت کردن لینک گروه
 
 !owner
-Returns group owner id
+مشاهده کردن آیدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+انتخاب کردن صاحب گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم کردن حساسیت فلود
 
 !stats
-Simple message statistics
+مشاهده کردن آمار پیام های ساده
 
 !save [value] [text]
-Save [text] as [value]
+سیو کردن یک جمله با یک کلمه
 
 !get [value]
-Returns text of [value]
+دریافت کردن جمله سیو شده با کلمه
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+خالی کردن موارد بالایی
 
 !res [username]
-Returns user id
-
-!log
-Will return group logs
+مشاهده کردن آیدی یوزر نیم مشخص شده
 
 !banlist
-Will return group ban list
+مشاهده کردن لیست اعضای بن شده گروه
 
-» U can use both "/" and "!" 
 
-» Only mods, owner and admin can add bots in group
-
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
+شما میتوانید به جای علامت ! از / در همه دستورات استفاده کنید
 
 ]]
   }
