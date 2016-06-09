@@ -234,7 +234,7 @@ function create_config( )
     about_text = [[#___________ 
 PARADOX v1
 #_________________________________________________
-Sudo And Devleoper : Farzad Nari ( @Farzad_Nari )
+Devleoper : Farzad Nari ( @Farzad_Nari )
 #___________________________________
 Robot Language->  English & Persian
 #______________________________
@@ -321,7 +321,7 @@ Commands list :
 (آن بن کردن(از بن درآوردن
 
 !who
-مشاده کردن لیست اعضای گروه
+مشاهده کردن لیست اعضای گروه
 
 !modlist
 مشاهده کردن مدیران گروه
@@ -336,7 +336,7 @@ Commands list :
 کیک شدنتان توسط ربات
 
 !about
-مشاخده کردن توضیحات گروه
+مشاهده کردن توضیحات گروه
 
 !setphoto
 تنظیم کردن عکس گروه
