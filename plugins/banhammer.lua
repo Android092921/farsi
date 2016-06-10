@@ -172,7 +172,7 @@ local function run(msg, matches)
           	return "شما قادر به بن کردن این فرد نیستید"
         end
         if tonumber(matches[2]) == tonumber(msg.from.id) then
-          	return "You can't ban your self !"
+          	return "شما قادر به بن کردن خودتان نیستید!"
         end
         local name = user_print_name(msg.from)
         savelog(msg.to.id, name.." ["..msg.from.id.."] baned user ".. matches[2])
