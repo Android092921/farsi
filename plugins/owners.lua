@@ -244,7 +244,7 @@ local function run(msg, matches)
     if matches[2] == 'new' then
       if matches[3] == 'link' then
         if not is_owner2(msg.from.id, chat_id) then
-          return "You are not the owner of this group"
+          return "شما صاحب گروه نیستید"
         end
         local function callback (extra , success, result)
           local receiver = 'chat#'..matches[1]
@@ -257,21 +257,21 @@ local function run(msg, matches)
         local name = user_print_name(msg.from)
         savelog(matches[1], name.." ["..msg.from.id.."] revoked group link ")
         export_chat_link(receiver, callback, true)
-        return "Created a new new link ! \n owner can get it by /owners "..matches[1].." get link"
+        return "لینک جدید ساخته شد \n فقط مدیران و بالاتر از آن ها میتوانند "..matches[1].." get link"
       end
     end
     if matches[2] == 'get' then 
       if matches[3] == 'link' then
         if not is_owner2(msg.from.id, chat_id) then
-          return "You are not the owner of this group"
+          return "owner can get it by"
         end
         local group_link = data[tostring(matches[1])]['settings']['set_link']
         if not group_link then 
-          return "Create a link using /newlink first !"
+          return "هیچ لینکی موجود نمی باشد.جهت ساختن لینک دستور !newlink را بفرستید"
         end
         local name = user_print_name(msg.from)
         savelog(matches[1], name.." ["..msg.from.id.."] requested group link ["..group_link.."]")
-        return "Group link:\n"..group_link
+        return "لینک گروه:\n"..group_link
       end
     end
     if matches[1] == 'changeabout' and matches[2] and is_owner2(msg.from.id, matches[2]) then
