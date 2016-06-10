@@ -176,7 +176,7 @@ local function run(msg, matches)
       end
       if matches[3] == 'rules' then
         if not is_owner2(msg.from.id, chat_id) then
-          return "You are not the owner of this group"
+          return "شما صاحب گروه نیستید"
         end
         local data_cat = 'rules'
         data[tostring(matches[1])][data_cat] = nil
@@ -186,7 +186,7 @@ local function run(msg, matches)
       end
       if matches[3] == 'about' then
         if not is_owner2(msg.from.id, chat_id) then
-          return "You are not the owner of this group"
+          return "شما صاحب گروه نیستید"
         end
         local data_cat = 'description'
         data[tostring(matches[1])][data_cat] = nil
@@ -197,21 +197,21 @@ local function run(msg, matches)
     end
     if matches[2] == "setflood" then
       if not is_owner2(msg.from.id, chat_id) then
-        return "You are not the owner of this group"
+        return "شما صاحب گروه نیستید"
       end
       if tonumber(matches[3]) < 5 or tonumber(matches[3]) > 20 then
-        return "Wrong number,range is [5-20]"
+        return "عددی که انتخاب می کنید باید در بین اعداد 5و20 باشد"
       end
       local flood_max = matches[3]
       data[tostring(matches[1])]['settings']['flood_msg_max'] = flood_max
       save_data(_config.moderation.data, data)
       local name = user_print_name(msg.from)
       savelog(matches[1], name.." ["..msg.from.id.."] set flood to ["..matches[3].."]")
-      return 'Group flood has been set to '..matches[3]
+      return 'حساسیت فلود تغییر یافت به'..matches[3]
     end
     if matches[2] == 'lock' then
       if not is_owner2(msg.from.id, chat_id) then
-        return "You are not the owner of this group"
+        return "شما صاحب گروه نیستید"
       end
       local target = matches[1]
       if matches[3] == 'name' then
@@ -227,7 +227,7 @@ local function run(msg, matches)
     end
     if matches[2] == 'unlock' then
       if not is_owner2(msg.from.id, chat_id) then
-        return "You are not the owner of this group"
+        return "شما صاحب گروه نیستید"
       end
       local target = matches[1]
       if matches[3] == 'name' then
