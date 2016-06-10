@@ -17,9 +17,9 @@ local function chat_list(msg)
     local data = load_data(_config.moderation.data)
         local groups = 'groups'
         if not data[tostring(groups)] then
-                return 'No groups at the moment'
+                return 'گروهی موجود نیشت'
         end
-        local message = 'List of Groups:\n*Use /join (ID) to join*\n\n '
+        local message = 'لیست گروه ها:\n*با فرستادن /join (ID) به گروه وارد شوید*\n\n '
         for k,v in pairs(data[tostring(groups)]) do
                 local settings = data[tostring(v)]['settings']
                 for m,n in pairsByKeys(settings) do
@@ -57,7 +57,7 @@ local function run(msg, matches)
 	  return "Added you to chat:\n\n👥"..group_name.." (ID:"..matches[2]..")"
         elseif matches[1] == 'join' and not data[tostring(matches[2])] then
 		
-         	return "Chat not found."
+         	return "گروه،پیدا نشد"
         end
      if matches[1] == 'chats'then
        if is_admin(msg) and msg.to.type == 'chat' then
