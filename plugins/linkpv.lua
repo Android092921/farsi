@@ -2,16 +2,16 @@ do
 
 function run(msg, matches)
        if not is_momod(msg) then
-        return "Only moderators and owner can"
+        return "شما نمیتوانید"
        end
     local data = load_data(_config.moderation.data)
       local group_link = data[tostring(msg.to.id)]['settings']['set_link']
        if not group_link then 
-        return "Create a link using /newlink first"
+        return "لطفا با فرستادن /newlink لینک بسازید و سپس دستور را بزنید"
        end
-         local text = "Group Link: \n__________________\n"..group_link
+         local text = "لینک گروه: \n__________________\n"..group_link
           send_large_msg('user#id'..msg.from.id, text.."\n", ok_cb, false)
-           return "Sended"
+           return "ارسال شد"
 end
 
 return {
